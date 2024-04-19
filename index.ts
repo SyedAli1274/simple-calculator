@@ -4,8 +4,8 @@
 import inquirer from "inquirer";
 
 const asnwer = await inquirer.prompt([
-{ message: "enter first number", type: "number", name: "firstNumber"},
-{ message: "enter second number", type: "number", name: "secondNumbr"},
+{ message: "enter your first number", type: "number", name: "firstNumber"},
+{ message: "enter your second number", type: "number", name: "secondNumbr"},
 { message: "select one of the operators to perform operation",
   type: "list",
   name: "operator",
@@ -35,7 +35,7 @@ console.log(asnwer.firstNumber / asnwer.secondNumbr);
 }
 
 
-
+console.log("THE END");
 
 
 
